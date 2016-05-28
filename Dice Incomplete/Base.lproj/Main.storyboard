@@ -26,6 +26,9 @@
                                 <state key="normal" title="Roll The Dice!">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="rollTheDice" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h0r-eU-gt2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -97,6 +100,7 @@
                     </view>
                     <connections>
                         <outlet property="firstDie" destination="r8F-NY-C0r" id="3Xg-2o-Wy0"/>
+                        <outlet property="secondDie" destination="auL-3f-b4I" id="I0m-gt-8SG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckr-Co-O4G" userLabel="First Responder" sceneMemberID="firstResponder"/>
